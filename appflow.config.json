@@ -3,6 +3,7 @@
     [
         {
             "appId": "f4929f39",
+            "root": "final-hybrid-app",
             "androidPath": "/android"
         }
     ]
