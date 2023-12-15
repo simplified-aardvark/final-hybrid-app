@@ -19,13 +19,13 @@ const Tab3 = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>Products</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">Tab 3</IonTitle>
+            <IonTitle size="large">Products</IonTitle>
           </IonToolbar>
         </IonHeader>
 
@@ -37,7 +37,11 @@ const Tab3 = () => {
                   <h2>Product Name: {item.product_name}</h2>
                   <h3>Cost {item.product_cost}</h3>
                   <p>Product Number: {item.product_number}</p>
-                  <img src={"https://dev-week11-a11.pantheonsite.io//wp-content/uploads/" + item.meta_value}></img>
+                  <img 
+                    src={"https://dev-week11-a11.pantheonsite.io//wp-content/uploads/" + item.meta_value}
+                    height={"150px"}
+                    width={"150px"}
+                  ></img>
                   
 
                 </IonLabel>

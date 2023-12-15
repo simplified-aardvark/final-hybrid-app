@@ -22,7 +22,7 @@ const Tab1 = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Contacts</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
@@ -41,7 +41,11 @@ const Tab1 = () => {
                   <h2>Name: {item.first_name + " " + item.last_name}</h2>
                   <h3>Contact ID: {item.post_id}</h3>
                   <p>Phone: {item.phone}</p>
-                  <img src={"https://dev-week11-a11.pantheonsite.io//wp-content/uploads/" + item.meta_value}></img>
+                  <img 
+                    src={"https://dev-week11-a11.pantheonsite.io//wp-content/uploads/" + item.meta_value}
+                    height={"150px"}
+                    width={"150px"}
+                  ></img>
                   
 
                 </IonLabel>
